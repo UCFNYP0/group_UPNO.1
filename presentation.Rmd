@@ -25,7 +25,7 @@ style_mono_light(
 ```
 ## Sensor summary
 
-## first time by zhiwei
+## first time by zhiwei cc
 
 ### What is the Synthetic Aperture Radar (SAR)
 
