@@ -29,5 +29,5 @@ style_mono_light(
 
 ### What is the Synthetic Aperture Radar (SAR)
 
-SAR is a type of active data collection where a sensor produces its own energy and then records the amount of that energy reflected back after interacting with the Earth.
+
 ---
