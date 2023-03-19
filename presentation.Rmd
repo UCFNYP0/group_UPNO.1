@@ -31,43 +31,196 @@ style_mono_light(
 
 ### What is the Synthetic Aperture Radar (SAR)
 
+
+
+
+
+
+
+
+
+
+
 ---
-page 10
 
-# What are TerraSAR-X and TanDEM-X
+#1.3 Policy overview
 
-.pull-left[
-  
-- TanDEM-X is a German radar satellite from DLR (the German Aerospace Center).
+## International policys
+
+**[United Nations New Urban Agenda (2015)🔗](https://habitat3.org/the-new-urban-agenda/)**
+- Point 54 :**Reducing** the … air pollution, **urban heat island effects** and noise.
+
+**[Universal Sustainable Development Goals (2015)🔗](https://www.undp.org/sustainable-development-goals), [SDG 11 Issue Brief (2018)🔗](https://wedocs-unep-org.translate.goog/handle/20.500.11822/25763?_x_tr_sl=en&_x_tr_tl=zh-CN&_x_tr_hl=zh-CN&_x_tr_pto=sc)**
+- Goal 11: Make cities and human settlements **inclusive, safe, resilient and sustainable**.
+- Cleaner,greener cities: Investing in parks and green spaces in urban areas will help to **amelioratethe urban heat island effect** and improve air quality in urban spaces.
+
+**[Sendai Framework for Disaster Risk Reduction 2015-2030 (2015)🔗](https://www.undrr.org/publication/sendai-framework-disaster-risk-reduction-2015-2030)**
+- Expected outcome: The substantial **reduction of disaster risk and losses in lives, livelihoods and health**.
+- Target 7 : Substantially increase the **availability of and access to multi-hazard early warning systems and disaster risk information and assessments to people** by 2030.
+
+```{r xaringan-tile-view, echo=FALSE}
+xaringanExtra::use_tile_view()
+```
 
 
-- TerraSAR-X launched in 2007 and was joined by TanDEM-X in 2010. Both satellites remain operational.
+???
+- In view of the social, economic and environmental damage caused by the urban heat island effect.
+- International policies in recent years have begun to focus on the **reducing the heat island effect and establishing a warning system**.
 
 
-- They lie in tight formation and can image the Earth's topography from different angles.
 
-- They have unprecedented accuracy for research, development, and scientific and commercial applications.
+
+
+
+
+
+
+---
+# 1.3 Policy overview
+
+## New York policys
+
+**[OneNYC 2050 Volume 7 (2019)🔗](https://onenyc.cityofnewyork.us/strategies/a-livable-climate/)**
+- Goal: **A LIVABLE CLIMATE.**
+- INITIATIVE 21: New York City is making changes to its physical environment to promote resiliency and mitigate the most dangerous and destructive climate impacts. Such as wetland and forest restoration, to stabilize shorelines, reduce erosion, act as carbon sinks, and **mitigate urban heat island effects**.
+
+**[Securing Our Future: Strategies for New York City in the Fight Against Climate Change (2020)🔗](https://council.nyc.gov/data/securing-our-future/)**
+- Goal: **Achieve cooling equity and reduce heat-related deaths.**
+- Key strategy: **Increase cooling assistance for vulnerable populations**.
+
+**[Cool Neighborhoods NYC (2017)🔗](https://www.preventionweb.net/publication/cool-neighborhoods-nyc-comprehensive-approach-keep-communities-safe-extreme-heat)**
+- Cool Neighborhoods NYC **Monitoring Strategies: Collecting Innovative Data** to Deliver Inclusive and Health-focused Climate Policy.
+
+???
+- In response to these internationalp policies,
+- New York has developed **a number of strategies and tactics** to reduce the heat island effect and Fight Against Climate Change.p- **Like increasing shade, greenery cover. Addressing challenges through data collection and monitoring system.**
+
+
+
+
+
+
+
+
+
+
+---
+# 1.4 International City examples
+
+## Warning services: App and Dashboard 
+
+**[EXTREMA project🔗](https://extrema.space/)** <br/>
+A dynamic platform of solutions that Cities are co-creating. Athens, Paris, Rotterdam, Milan and Lisbon have endorsed EXTREMA services. 
+
+<img src="https://github.com/Murphy829/group_UPNO.1/blob/master/imgs/EXTREMA%20GLOBAL.png?raw=true" style="width: 80%" /> <br/>
+Source: [EXTREMA | Global🔗](https://extrema-global.com/)
+
+
+
+???
+### What is EXTREMA project?
+- A dynamic platform of solutions that Cities are co-creating - Free to residents and visitors of participating cities. 
+### What the Mobile app provides the public？
+- Evaluating the real-time personalised health risk of the user at his/her location.
+- Alerts, recommendations and routing instructions to the nearest cooling centres.
+### What the Dashboard provides the local authorities？
+- Next day alerts.
+- Current hazard maps.
+- Information management tool for the cooling centres.
+### Which cities have endorsed EXTREMA services
+- Athens, Paris, Rotterdam, Milan, Lisbon and the Island of Mallorca.
+
+
+
+
+
+
+
+
+
+---
+
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+
+# 1.5 International approach examples
+
+## Assessment of the UHI effect
+
+The most common assessment of the SUHI uses satellite platforms to measure the **land surface temperature (LST)** (Bechtel et al.,2019).
+
+.panelset[
+
+.panel[.panel-name[UK]
+- **City**: London
+
+- **Data**: A five-year (2016-2020) time series of satellite-derived 100 m daytime LST images.
+
+- **Approach**: After estimating the 2016-2020, average, summertime, daytime LST is to aggregate them to city block level. In addition to the average LST (avgLST), the avgLST standard deviation, minimum and maximum for each city block are also estimated.
+
+- **Source**: Major Summer Heat Spots using Landsat-8 Thermal Satellite data.
 ]
 
 
-.pull-right[
+.panel[.panel-name[India]
+- **City**: Jaipur
 
-```{r echo=FALSE, out.width='80%'}
-knitr::include_graphics("image/TerraSAR-X.jpg")
-```
-<small> Fig.1.TerraSAR-X. Source: [Earth Oline](https://earth.esa.int/eogateway/documents/20142/2205524/TerraSAR-X.jpg)
-</small>
+- **Data**: Moderate Resolution Imaging Spectroradiometer (MODIS) data.
 
-```{r echo=FALSE, out.width='80%'}
-knitr::include_graphics("image/parameters1.jpg")
-```
-<small>Table.1.The Parameters of Sentors. Source: [Earth Oline](https://earth.esa.int/eogateway/missions/terrasar-x-and-tandem-x)
-] 
-</small>
+- **Approach**: Analysis of land surface temperature (LST) data shows that significant SUHI growth exists over the study area.
+
+- **Source**: Investigating spatio-temporal surface urban heat island growth over Jaipur city using geospatial techniques.
+
+]
+
+
+.panel[.panel-name[Morocco]
+- **City**: Casablanca
+
+- **Data**: A time series of Landsat TM/ETM+/OLI-TIRS images and nocturnal MODIS images.
+
+- **Approach**: In order to better analyze intense heat produced by urban core, SUHI intensity (SUHII) was computed by quantifying the difference of land surface temperature (LST) between urban and rural areas.
+
+- **Source**: Effects of Urbanization and Seasonal Cycle on the Surface Urban Heat Island Patterns in the Coastal Growing Cities: A Case Study of Casablanca, Morocco.
+
+]
+
+.panel[.panel-name[China]
+- **City**: Shijiazhuang
+
+- **Data**: Landsat TM images on the mesoscale level and airborne hyperspectral thermal images on the microscale level.
+
+- **Approach**: Land surface temperature (LST) was retrieved from four scenes of Landsat TM data in the summer days to analyze the thermal spatial patterns and intensity of surface UHI (SUHI).
+
+- **Source**: Analysis of the Urban Heat Island Effect in Shijiazhuang, China Using Satellite and Airborne Data.
+
+]
+
+
+]
+
+???
+- The most common assessment of the SUHI uses satellite platforms to measure the land surface temperature (LST).
+- satellite data like landsat8 provides can be used for **mapping the spatial distribution of urban surface temperatures and identifying urban hotspots.**
+
+
+
+
+
+
 
 
 ---
-page 12
+page 11
+
+# 2.4 Why the products are useful?
+
+## Their usefulness
+
+
+---
+page 13
 
 # 2.4 Why the products are useful?
 
@@ -94,22 +247,21 @@ page 12
 - Extensibility of platform functionality.
 
 ---
-page 13
+page 14
 
 # 3.1 Possible risks and strtegies
 
-##The influence of local features such as building density and height on the accuracy of detection and prediction
+## Their usefulness
 
-In addition to remote sensing data, real-time temperature detection devices are deployed in urban spaces to improve data accuracy. Expanding the data sources of websites and apps allows the subsequent introduction of other types of data and improves detection accuracy.
+Helping the government better monitor urban heat island conditions.
 
-## The accuracy of the warning information to the public and conflicts with the existing government notification system.
+## Innovations
 
-When communicating thermal risks, it is essential to streamline the language, clarify the distinction between different warning levels, and ensure the accuracy of the information. At the same time, to achieve effective information management, various urban departments must work closely together to avoid confusion of information and strained public outreach.
+Display data and information on urban heat islands through visualisation.
 
-## Websites and apps have high operating costs in the later stages and may exceed the budget.
+## Innovations
 
-Establishing a sound budget and resource management mechanism, including budget planning, resource allocation, cost control and other aspects, is necessary. At the same time, effective monitoring mechanisms must ensure that budgets and resources are used wisely. Try to share the results of the website and APP with other projects to obtain long-term operation funding sources and help.
-
+Display data and information on urban heat islands through visualisation.
 
 
 
