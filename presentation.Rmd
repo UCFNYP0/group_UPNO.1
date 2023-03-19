@@ -234,7 +234,7 @@ knitr::include_graphics('Project_Timeline.png')
 
 page 16
 
-# 3.3 Project Funds Expenditure Plan
+# 3.3 Project Funds Costs Plan
 
 **Costs**
 ```{r echo=FALSE, out.width='100%'}
@@ -266,7 +266,7 @@ knitr::kable(head(equip), format = 'html')
 ]
 .panel[.panel-name[Total Costs]
 ```{r echo=FALSE, out.width='100%'}
-other<-cost[10,c(2,3)]
+other<-cost[11,c(2,3)]
 
 knitr::kable(head(other), format = 'html')
 ```
