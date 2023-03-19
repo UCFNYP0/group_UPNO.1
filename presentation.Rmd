@@ -245,7 +245,7 @@ The most common assessment of the SUHI uses satellite platforms to measure the *
 
 **Monitoring System**
 ```{r echo=FALSE, out.width='100%', fig.align='center', fig.cap= "Monitoring System. Source: [Drawed by Group UPNO.1]"}
-knitr::include_graphics('flow2.png')
+knitr::include_graphics('flow1.png')
 ```
 ---
 ### 2.1 Project approach
@@ -253,7 +253,7 @@ knitr::include_graphics('flow2.png')
 **Predictinging System**
 
 ```{r echo=FALSE, out.width='100%',fig.align='center', fig.cap= "Predictinging System. Source: [Drawed by Group UPNO.1]"}
-knitr::include_graphics('flow1.png')
+knitr::include_graphics('flow2.png')
 ```
 ---
 ### 2.2 Expected output products
