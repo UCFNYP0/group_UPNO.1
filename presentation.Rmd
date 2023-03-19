@@ -1,6 +1,6 @@
 ---
 title: "Urban Heated Island System - OneNYC 2050"
-author: "Boxuan Zhao, Yinhao Zhan, Yujin Pan, Zhiwei Huang, Yuxi Zheng"
+author: "Baixuan Zhao, Yinhao Zhan, Yujin Pan, Zhiwei Huang, Yuxi Zheng"
 institute: "UCL,CASA"
 Group Name: "UPNO.1"
 date: "3/22/2023"
@@ -23,18 +23,91 @@ style_mono_light(
   code_font_google   = google_font("Fira Mono")
 )
 ```
-### 1.1 Learn About Urban Heat Islands
+### 1.1 Learn About Urban Heat Islands 
 
+--
+
+<h3>What are Heat Islands?</h3>
+
+Urban areas, where these structures are highly concentrated and greenery is limited, become “islands” of higher temperatures relative to outlying areas. These pockets of heat are referred to as “heat islands.”
+
+<center><h4><b>Urban Heat Island: City temperatures are often higher than those of nearby rural areas<b/></h4>
+<img src="https://i.postimg.cc/WzG0X9Vp/p1.png" width=500,height=250>
+        
+<center><h6><b>SOURCE:Fuladlu et. all, 2018,Unpacking the Urban Heat Island Effect<b/></h6>
+
+---
+### 1.1 Learn About Urban Heat Islands 
+<p></p>
+<p></p>
+<p></p>
+<table>
+        <td ><left><h3><b>Causes of UHI effect<b/></h3><left/>
+<ul style="list-style-type:disc;">
+  <li>Reduced Natural Landscapes in Urban Areas</li>
+  <li>Urban Material Properties</li>
+  <li>Urban Geometry</li>
+  <li>Heat Generated from Human Activities</li>
+  <li>Weather and Geography</li>
+</ul></td>
+        <td> 
+        <center><img src="https://i.postimg.cc/Yq7NDmSn/p2.png" style="width: 100%" />
+        <center><h6><b>SOURCE:D.S.Lemmen and F.J.Warren,Climate change impacts and Adaptation<b/></h6></center></td>
+</table>
+
+---
+### 1.2 Challenges NYC Face   
+<table>
+        <td >The New York City Panel on Climate Change (NPCC) projects up to a 5.7°F increase in New York City (NYC) average temperatures and a doubling of the number of days above 90°F by the 2050s.</left></td>
+        <td ><left>New York City faces many social, environmental, economic and infrastructural risks due to the heat island effect.</left>
+    <tr>
+        <td><center><img src="https://i.postimg.cc/158SN2yQ/p3.png" width=400,height=200><center/>
+        <font size='1'>Figure:Temperatures in the Contiguous 48 States, 1901–2021.Data source:  NOAA, 2022. 
+</font></td>
+        <td ><center><img src="https://i.postimg.cc/ZKGGvqf8/p4.png"  ><font size='1'>Figure:NYC Thermal Imagery. Data source: LANDSAT Thermal Data, 2009.</font>
+</center> </td>
+    </tr>
+</table>
+---
+### 1.2 Challenges NYC Face
+
+--
+
+<h3>Social impacts</h3>
+Heat is the NO.1 weather-related killer in the US (NOAA, 2016). Every year, NYC experiences an average of 450 heat-related emergency department visits, 150 heat-related hospital admissions, and 13 heat-stroke deaths. The City also averages about 115 excess deaths from natural causes exacerbated by extreme heat annually (Matte et. all, 2016).
+
+<center><p><img src="https://i.postimg.cc/43sNtP8Q/p5.png" width=500,height=250><br>
+        
+<center><h6><b>Source: NOAA National Weather Service, 2016.<b/></h6>
+
+---
+### 1.2 Challenges NYC Face
+<table>
+        <td ><font size='5'><b>Economic Impacts<b/></font>
+<p><font size='4'>Affecting  workforce productivity, retail sales, tourism, and the competitiveness of regions.</font><br></td>
+        <td ><font size='5'><b>Environmental Impacts<b/></font>
+<p><font size='4'>Impacts on landscapes and urban ecology.</font><br>
+    <tr>
+        <td><font size='5'><b>Infrastructure Impacts<b/></font>
+<p><font size='4'>Impacts on built infrastructure systems  include water, energy, and transportation systems.</font><br></td>
+        <td ><font size='5'><b>Sustainability and Resilience Impacts<b/></font>
+<p><font size='4'>More difficult to achieve sustainability and resilience planning goals.</font> <br></td>
+    </tr>
+</table>
+
+<center><p><img src="https://i.postimg.cc/50kxhVfs/p6.png"style="width: 50%" /><br>
+        
+<center><h6><b>Source: Planning for Urban Heat Resilience ,2022<b/></h6>
+
+ 
 
 ---
 ### 1.2 Challenges NYC Face
 
-
-
----
-### 1.2 Challenges NYC Face
-
-
+<center>
+<p><img src="https://i.postimg.cc/43sNtP8Q/p5.png" width=500,height=250><br>
+        
+<center><h6><b>Source: NOAA National Weather Service, 2016.<b/></h6>
 ---
 
 ### 1.3 Policy overview

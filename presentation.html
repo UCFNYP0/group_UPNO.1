@@ -3,8 +3,12 @@
   <head>
     <title>Urban Heated Island System - OneNYC 2050</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Boxuan Zhao, Yinhao Zhan, Yujin Pan, Zhiwei Huang, Yuqian Zheng" />
+    <meta name="author" content="Baixuan Zhao, Yinhao Zhan, Yujin Pan, Zhiwei Huang, Yuxi Zheng" />
     <script src="libs/header-attrs-2.20/header-attrs.js"></script>
+    <link href="libs/tile-view-0.2.6/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view-0.2.6/tile-view.js"></script>
+    <link href="libs/panelset-0.2.6/panelset.css" rel="stylesheet" />
+    <script src="libs/panelset-0.2.6/panelset.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
   <body>
@@ -15,7 +19,7 @@ class: center, middle, inverse, title-slide
 # Urban Heated Island System - OneNYC 2050
 ]
 .author[
-### Boxuan Zhao, Yinhao Zhan, Yujin Pan, Zhiwei Huang, Yuqian Zheng
+### Baixuan Zhao, Yinhao Zhan, Yujin Pan, Zhiwei Huang, Yuxi Zheng
 ]
 .institute[
 ### UCL,CASA
@@ -28,80 +32,94 @@ class: center, middle, inverse, title-slide
 
 
 
-### 1.1 Learn About Urban Heat Islands
+### 1.1 Learn About Urban Heat Islands 
 
-<<<<<<< HEAD
+--
+
+&lt;h3&gt;What are Heat Islands?&lt;/h3&gt;
+
+Urban areas, where these structures are highly concentrated and greenery is limited, become “islands” of higher temperatures relative to outlying areas. These pockets of heat are referred to as “heat islands.”
+
+&lt;center&gt;&lt;h4&gt;&lt;b&gt;Urban Heat Island: City temperatures are often higher than those of nearby rural areas&lt;b/&gt;&lt;/h4&gt;
+&lt;img src="https://i.postimg.cc/WzG0X9Vp/p1.png" width=500,height=250&gt;
+        
+&lt;center&gt;&lt;h6&gt;&lt;b&gt;SOURCE:Fuladlu et. all, 2018,Unpacking the Urban Heat Island Effect&lt;b/&gt;&lt;/h6&gt;
+
+---
+### 1.1 Learn About Urban Heat Islands 
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;table&gt;
+        &lt;td &gt;&lt;left&gt;&lt;h3&gt;&lt;b&gt;Causes of UHI effect&lt;b/&gt;&lt;/h3&gt;&lt;left/&gt;
+&lt;ul style="list-style-type:disc;"&gt;
+  &lt;li&gt;Reduced Natural Landscapes in Urban Areas&lt;/li&gt;
+  &lt;li&gt;Urban Material Properties&lt;/li&gt;
+  &lt;li&gt;Urban Geometry&lt;/li&gt;
+  &lt;li&gt;Heat Generated from Human Activities&lt;/li&gt;
+  &lt;li&gt;Weather and Geography&lt;/li&gt;
+&lt;/ul&gt;&lt;/td&gt;
+        &lt;td&gt; 
+        &lt;center&gt;&lt;img src="https://i.postimg.cc/Yq7NDmSn/p2.png" style="width: 100%" /&gt;
+        &lt;center&gt;&lt;h6&gt;&lt;b&gt;SOURCE:D.S.Lemmen and F.J.Warren,Climate change impacts and Adaptation&lt;b/&gt;&lt;/h6&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;/table&gt;
+
+---
+### 1.2 Challenges NYC Face   
+&lt;table&gt;
+        &lt;td &gt;The New York City Panel on Climate Change (NPCC) projects up to a 5.7°F increase in New York City (NYC) average temperatures and a doubling of the number of days above 90°F by the 2050s.&lt;/left&gt;&lt;/td&gt;
+        &lt;td &gt;&lt;left&gt;New York City faces many social, environmental, economic and infrastructural risks due to the heat island effect.&lt;/left&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;center&gt;&lt;img src="https://i.postimg.cc/158SN2yQ/p3.png" width=400,height=200&gt;&lt;center/&gt;
+        &lt;font size='1'&gt;Figure:Temperatures in the Contiguous 48 States, 1901–2021.Data source:  NOAA, 2022. 
+&lt;/font&gt;&lt;/td&gt;
+        &lt;td &gt;&lt;center&gt;&lt;img src="https://i.postimg.cc/ZKGGvqf8/p4.png"  &gt;&lt;font size='1'&gt;Figure:NYC Thermal Imagery. Data source: LANDSAT Thermal Data, 2009.&lt;/font&gt;
+&lt;/center&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
 ---
 ### 1.2 Challenges NYC Face
 
+--
 
+&lt;h3&gt;Social impacts&lt;/h3&gt;
+Heat is the NO.1 weather-related killer in the US (NOAA, 2016). Every year, NYC experiences an average of 450 heat-related emergency department visits, 150 heat-related hospital admissions, and 13 heat-stroke deaths. The City also averages about 115 excess deaths from natural causes exacerbated by extreme heat annually (Matte et. all, 2016).
+
+&lt;center&gt;&lt;p&gt;&lt;img src="https://i.postimg.cc/43sNtP8Q/p5.png" width=500,height=250&gt;&lt;br&gt;
+        
+&lt;center&gt;&lt;h6&gt;&lt;b&gt;Source: NOAA National Weather Service, 2016.&lt;b/&gt;&lt;/h6&gt;
+
+---
+### 1.2 Challenges NYC Face
+&lt;table&gt;
+        &lt;td &gt;&lt;font size='5'&gt;&lt;b&gt;Economic Impacts&lt;b/&gt;&lt;/font&gt;
+&lt;p&gt;&lt;font size='4'&gt;Affecting  workforce productivity, retail sales, tourism, and the competitiveness of regions.&lt;/font&gt;&lt;br&gt;&lt;/td&gt;
+        &lt;td &gt;&lt;font size='5'&gt;&lt;b&gt;Environmental Impacts&lt;b/&gt;&lt;/font&gt;
+&lt;p&gt;&lt;font size='4'&gt;Impacts on landscapes and urban ecology.&lt;/font&gt;&lt;br&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;font size='5'&gt;&lt;b&gt;Infrastructure Impacts&lt;b/&gt;&lt;/font&gt;
+&lt;p&gt;&lt;font size='4'&gt;Impacts on built infrastructure systems  include water, energy, and transportation systems.&lt;/font&gt;&lt;br&gt;&lt;/td&gt;
+        &lt;td &gt;&lt;font size='5'&gt;&lt;b&gt;Sustainability and Resilience Impacts&lt;b/&gt;&lt;/font&gt;
+&lt;p&gt;&lt;font size='4'&gt;More difficult to achieve sustainability and resilience planning goals.&lt;/font&gt; &lt;br&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;center&gt;&lt;p&gt;&lt;img src="https://i.postimg.cc/50kxhVfs/p6.png"style="width: 50%" /&gt;&lt;br&gt;
+        
+&lt;center&gt;&lt;h6&gt;&lt;b&gt;Source: Planning for Urban Heat Resilience ,2022&lt;b/&gt;&lt;/h6&gt;
+
+ 
 
 ---
 ### 1.2 Challenges NYC Face
 
-
-
+&lt;center&gt;
+&lt;p&gt;&lt;img src="https://i.postimg.cc/43sNtP8Q/p5.png" width=500,height=250&gt;&lt;br&gt;
+        
+&lt;center&gt;&lt;h6&gt;&lt;b&gt;Source: NOAA National Weather Service, 2016.&lt;b/&gt;&lt;/h6&gt;
 ---
+
 ### 1.3 Policy overview
-
-
----
-### 1.4 City examples
-
-
----
-### 2.1 project approach
-
-**Monitoring System**
-&lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="flow2.png" alt="Monitoring System. Source: [Drawed by Group UPNO.1]" width="100%" /&gt;
-&lt;p class="caption"&gt;Monitoring System. Source: [Drawed by Group UPNO.1]&lt;/p&gt;
-&lt;/div&gt;
----
-### 2.1 project approach
-
-**Predictinging System**
-
-&lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="flow1.png" alt="Predictinging System. Source: [Drawed by Group UPNO.1]" width="100%" /&gt;
-&lt;p class="caption"&gt;Predictinging System. Source: [Drawed by Group UPNO.1]&lt;/p&gt;
-&lt;/div&gt;
----
-### 2.2 Expected output products
-
-
-
----
-### 2.3 How to use them
-**Government**
-+ Help the government to **keep track of the heat island situation**
-+ Formulate corresponding policy measures for **different heat levels**
-+ Facilitate government departments to **make decisions and formulate regulation measures**
-
-**Public**
-.pull-left[
-+ The APP provides **timely access to information** related to hot weather warnings, heat prevention and cooling knowledge, medical assistance.
-+ The APP can provide **public service functions**, such as checking the nearest places to escape the heat.
-+ Residents can interact with each other through the APP, **sharing suggestions on heat prevention**.]
-&lt;div class="figure" style="text-align: right"&gt;
-&lt;img src="people.png" alt="Guide to Heatwave" width="30%" /&gt;
-&lt;p class="caption"&gt;Guide to Heatwave&lt;/p&gt;
-&lt;/div&gt;
-=======
-## first time by zhiwei cc
-
-## second by zhiwei
-
-### What is the Synthetic Aperture Radar (SAR)
-
-
-      
-      
->>>>>>> 57e83da1faa5894c14a65f78a92176f98d5805ee
----
-
-#1.3 Policy overview
-
 ## International policys
 
 **[United Nations New Urban Agenda (2015)🔗](https://habitat3.org/the-new-urban-agenda/)**
@@ -121,48 +139,9 @@ class: center, middle, inverse, title-slide
 ???
 - In view of the social, economic and environmental damage caused by the urban heat island effect.
 - International policies in recent years have begun to focus on the **reducing the heat island effect and establishing a warning system**.
-
-
-
-
-
-
-
-
-
 ---
-# 1.3 Policy overview
-
-## New York policys
-
-**[OneNYC 2050 Volume 7 (2019)🔗](https://onenyc.cityofnewyork.us/strategies/a-livable-climate/)**
-- Goal: **A LIVABLE CLIMATE.**
-- INITIATIVE 21: New York City is making changes to its physical environment to promote resiliency and mitigate the most dangerous and destructive climate impacts. Such as wetland and forest restoration, to stabilize shorelines, reduce erosion, act as carbon sinks, and **mitigate urban heat island effects**.
-
-**[Securing Our Future: Strategies for New York City in the Fight Against Climate Change (2020)🔗](https://council.nyc.gov/data/securing-our-future/)**
-- Goal: **Achieve cooling equity and reduce heat-related deaths.**
-- Key strategy: **Increase cooling assistance for vulnerable populations**.
-
-**[Cool Neighborhoods NYC (2017)🔗](https://www.preventionweb.net/publication/cool-neighborhoods-nyc-comprehensive-approach-keep-communities-safe-extreme-heat)**
-- Cool Neighborhoods NYC **Monitoring Strategies: Collecting Innovative Data** to Deliver Inclusive and Health-focused Climate Policy.
-
-???
-- In response to these internationalp policies,
-- New York has developed **a number of strategies and tactics** to reduce the heat island effect and Fight Against Climate Change.p- **Like increasing shade, greenery cover. Addressing challenges through data collection and monitoring system.**
-
-
-
-
-
-
-
-
-
-
----
-# 1.4 International City examples
-
-## Warning services: App and Dashboard 
+### 1.4 City examples
+#### Warning services: App and Dashboard 
 
 **[EXTREMA project🔗](https://extrema.space/)** &lt;br/&gt;
 A dynamic platform of solutions that Cities are co-creating. Athens, Paris, Rotterdam, Milan and Lisbon have endorsed EXTREMA services. 
@@ -173,33 +152,21 @@ Source: [EXTREMA | Global🔗](https://extrema-global.com/)
 
 
 ???
-### What is EXTREMA project?
+#### What is EXTREMA project?
 - A dynamic platform of solutions that Cities are co-creating - Free to residents and visitors of participating cities. 
-### What the Mobile app provides the public？
+#### What the Mobile app provides the public？
 - Evaluating the real-time personalised health risk of the user at his/her location.
 - Alerts, recommendations and routing instructions to the nearest cooling centres.
-### What the Dashboard provides the local authorities？
+#### What the Dashboard provides the local authorities？
 - Next day alerts.
 - Current hazard maps.
 - Information management tool for the cooling centres.
-### Which cities have endorsed EXTREMA services
+#### Which cities have endorsed EXTREMA services
 - Athens, Paris, Rotterdam, Milan, Lisbon and the Island of Mallorca.
-
-
-
-
-
-
-
-
-
 ---
+### 1.5 International approach examples
 
-
-
-# 1.5 International approach examples
-
-## Assessment of the UHI effect
+#### Assessment of the UHI effect
 
 The most common assessment of the SUHI uses satellite platforms to measure the **land surface temperature (LST)** (Bechtel et al.,2019).
 
@@ -255,13 +222,207 @@ The most common assessment of the SUHI uses satellite platforms to measure the *
 
 ???
 - The most common assessment of the SUHI uses satellite platforms to measure the land surface temperature (LST).
-- satellite data like landsat8 provides can be used for **mapping the spatial distribution of urban surface temperatures and identifying urban hotspots.**      
-      
+- satellite data like landsat8 provides can be used for **mapping the spatial distribution of urban surface temperatures and identifying urban hotspots.**
 ---
-page 13
+### 2.1 Project approach
 
-# 
+**Monitoring System**
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="flow2.png" alt="Monitoring System. Source: [Drawed by Group UPNO.1]" width="100%" /&gt;
+&lt;p class="caption"&gt;Monitoring System. Source: [Drawed by Group UPNO.1]&lt;/p&gt;
+&lt;/div&gt;
+---
+### 2.1 Project approach
 
+**Predictinging System**
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="flow1.png" alt="Predictinging System. Source: [Drawed by Group UPNO.1]" width="100%" /&gt;
+&lt;p class="caption"&gt;Predictinging System. Source: [Drawed by Group UPNO.1]&lt;/p&gt;
+&lt;/div&gt;
+---
+### 2.2 Expected output products
+
+---
+
+### 2.3 How to use them
+**Government**
++ Help the government to **keep track of the heat island situation**
++ Formulate corresponding policy measures for **different heat levels**
++ Facilitate government departments to **make decisions and formulate regulation measures**
+
+**Public**
+.pull-left[
++ The APP provides **timely access to information** related to hot weather warnings, heat prevention and cooling knowledge, medical assistance.
++ The APP can provide **public service functions**, such as checking the nearest places to escape the heat.
++ Residents can interact with each other through the APP, **sharing suggestions on heat prevention**.]
+&lt;div class="figure" style="text-align: right"&gt;
+&lt;img src="people.png" alt="Guide to Heatwave" width="30%" /&gt;
+&lt;p class="caption"&gt;Guide to Heatwave&lt;/p&gt;
+&lt;/div&gt;
+
+---
+
+### 2.4 Why the products are useful
+
+#### Their usefulness
+
+- Helping the government better monitor urban heat island conditions.
+
+- Provide timely warnings and take countermeasures to reduce the impact of hot weather.
+
+- Reduce casualties and damage caused by hot weather.
+
+- Support urban planning and management by providing information of urban heat islands.
+
+- Help government decision-makers to formulate urban planning and management policies better.
+
+#### Innovations
+
+- Display data and information on urban heat islands through visualisation.
+
+- Instant communication.
+
+- Make intelligent predictions and warnings through artificial intelligence technology.
+
+- Extensibility of platform functionality.
+
+---
+
+### 3.1 Possible risks and strtegies
+
+#### Their usefulness
+
+Helping the government better monitor urban heat island conditions.
+
+#### Innovations
+
+Display data and information on urban heat islands through visualisation.
+
+#### Innovations
+
+Display data and information on urban heat islands through visualisation.
+
+---
+page 15
+
+# 3.2 Project management
+
+
+&lt;img src="Project_Timeline.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+page 16
+
+# 3.3 Project Funds Costs Plan
+
+**Costs**
+
+
+.panelset[
+
+.panel[.panel-name[Direct Costs]
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt;   &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; X &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Description &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Total.Cost.GBP &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Project Manager &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Overall planning, organisation and implementation of the project &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 25,000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Remote sensing data analyst &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Collection, processing and analysis of remote sensing data on urban heat island effect &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 20,000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Development Engineer &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Design, development and maintenance of the web and app &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 40,000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 5 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Marketing Specialist &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Market research, promotion of the web and app &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 15,000 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+]
+.panel[.panel-name[Indirect Costs]
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt;   &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; X &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Description &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Total.Cost.GBP &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 7 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Rent and Property &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Office space rent and related facilities and equipment expenses &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 10,000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 8 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Operation and Management &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Expenses for marketing and branding &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 5,000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 9 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Human Resources Management &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Expenses on hiring off-site experts, welfare and insurance &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 5,000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 10 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Contingency Unforeseen expenses and emergencies &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 20,000 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+]
+.panel[.panel-name[Total Costs]
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt;   &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Description &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Total.Cost.GBP &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 11 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; The sum of direct and indirect costs &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 140,000 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+]
+]
+
+
+---
 
 
     </textarea>
