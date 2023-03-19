@@ -258,7 +258,7 @@ knitr::kable(head(Direct), format = 'html')
 ]
 .panel[.panel-name[Indirect Costs]
 ```{r echo=FALSE, out.width='100%'}
-equip<-cost[7:9,]
+equip<-cost[7:10,]
 
 knitr::kable(head(equip), format = 'html')
 ```
