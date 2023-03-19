@@ -220,6 +220,61 @@ Display data and information on urban heat islands through visualisation.
 
 Display data and information on urban heat islands through visualisation.
 
+---
+page 15
 
+# 3.2 Project management
+
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('Project_Timeline.png')
+```
+
+---
+
+page 16
+
+# 3.3 Project Funds Expenditure Plan
+
+**Costs**
+```{r echo=FALSE, out.width='100%'}
+xaringanExtra::use_panelset()
+
+cost<- read.csv("cost.csv", 
+                         header = TRUE, 
+                         sep = ",",  
+                         encoding = "latin1")
+```
+
+.panelset[
+
+.panel[.panel-name[Direct Costs]
+
+```{r echo=FALSE, out.width='100%'}
+Direct<-cost[2:5,]
+
+knitr::kable(head(Direct), format = 'html')
+```
+]
+.panel[.panel-name[Indirect Costs]
+```{r echo=FALSE, out.width='100%'}
+equip<-cost[7:9,]
+
+knitr::kable(head(equip), format = 'html')
+```
+
+]
+.panel[.panel-name[Total Costs]
+```{r echo=FALSE, out.width='100%'}
+other<-cost[10,c(2,3)]
+
+knitr::kable(head(other), format = 'html')
+```
+
+]
+]
+
+
+---
 
 
