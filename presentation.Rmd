@@ -135,7 +135,7 @@ xaringanExtra::use_tile_view()
 
 
 ---
-## 1.3 Policy overview
+### 1.3 Policy overview
 
 ### New York policys
 
@@ -252,12 +252,37 @@ knitr::include_graphics('flow2.png')
 
 **Predictinging System**
 
-```{r echo=FALSE, out.width='100%', fig.align='center', fig.cap= "Predictinging System. Source: [Drawed by Group UPNO.1]"}
+```{r echo=FALSE, out.width='100%',fig.align='center', fig.cap= "Predictinging System. Source: [Drawed by Group UPNO.1]"}
 knitr::include_graphics('flow1.png')
 ```
 ---
 ### 2.2 Expected output products
+.pull-left[
+  
+#### UHI monitoring, early warning website
+- The website is able to visualise the distribution of urban heat islands.
+- It can issue timely hot weather warning information.
+- It can summarise and collect data on urban heat islands.
 
+#### App for residents
+- Disseminate timely information on hot weather warnings to users through push and information alerts.
+- It can display the distribution of urban heat islands through map technology and provide information about heat islands.
+- Provides information and advice on coping with hot weather to help users prepare for it.
+]
+
+.pull-right[
+```{r echo=FALSE, out.width='80%'}
+knitr::include_graphics("image1/UHI.jpg")
+```
+<small> Fig.1.Website showing heat island distribution. Source: [Yujin](https://code.earthengine.google.com/28e648405cc7a843996deb56d1c35413)
+</small>
+
+```{r echo=FALSE, out.width='80%'}
+knitr::include_graphics("image1/the app.jpg")
+```
+<small>Fig.1.The APP for residents. Source: [Urban Canopy](https://urbancanopy.io/earthhacks)
+] 
+</small>
 ---
 
 ### 2.3 How to use them
@@ -280,47 +305,31 @@ knitr::include_graphics('people.png')
 ### 2.4 Why the products are useful
 
 #### Their usefulness
-
 - Helping the government better monitor urban heat island conditions.
-
 - Provide timely warnings and take countermeasures to reduce the impact of hot weather.
-
 - Reduce casualties and damage caused by hot weather.
-
 - Support urban planning and management by providing information of urban heat islands.
-
 - Help government decision-makers to formulate urban planning and management policies better.
 
 #### Innovations
-
 - Display data and information on urban heat islands through visualisation.
-
 - Instant communication.
-
 - Make intelligent predictions and warnings through artificial intelligence technology.
-
 - Extensibility of platform functionality.
 
 ---
 
 ### 3.1 Possible risks and strtegies
 
-#### Their usefulness
-
-Helping the government better monitor urban heat island conditions.
-
-#### Innovations
-
-Display data and information on urban heat islands through visualisation.
-
-#### Innovations
-
-Display data and information on urban heat islands through visualisation.
+#### The influence of local features such as building density and height on the accuracy of detection and prediction 
+In addition to remote sensing data, real-time temperature detection devices are deployed in urban spaces to improve data accuracy.  
+#### The accuracy of the warning information to the public and conflicts with the existing government notification system.
+When communicating thermal risks, it is essential to streamline the language, clarify the distinction between different warning levels, and ensure the accuracy of the information. 
+#### Websites and apps have high operating costs in the later stages and may exceed the budget.
+Establishing a sound budget and resource management mechanism, including budget planning, resource allocation, cost control and other aspects, is necessary. At the same time, effective monitoring mechanisms must ensure that budgets and resources are used wisely.
 
 ---
-page 15
-
-# 3.2 Project management
+### 3.2 Project management
 
 
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
@@ -328,10 +337,7 @@ knitr::include_graphics('Project_Timeline.png')
 ```
 
 ---
-
-page 16
-
-# 3.3 Project Funds Costs Plan
+### 3.3 Project Funds Costs Plan
 
 **Costs**
 ```{r echo=FALSE, out.width='100%'}
@@ -371,7 +377,7 @@ knitr::kable(head(other), format = 'html')
 ]
 ]
 
-
 ---
-
-
+### 4 Summary
+---
+### References
