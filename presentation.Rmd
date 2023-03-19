@@ -32,15 +32,42 @@ style_mono_light(
 ### What is the Synthetic Aperture Radar (SAR)
 
 ---
-page 11
+page 10
 
-# 2.4 Why the products are useful?
+# What are TerraSAR-X and TanDEM-X
 
-## Their usefulness
+.pull-left[
+  
+- TanDEM-X is a German radar satellite from DLR (the German Aerospace Center).
+
+
+- TerraSAR-X launched in 2007 and was joined by TanDEM-X in 2010. Both satellites remain operational.
+
+
+- They lie in tight formation and can image the Earth's topography from different angles.
+
+- They have unprecedented accuracy for research, development, and scientific and commercial applications.
+]
+
+
+.pull-right[
+
+```{r echo=FALSE, out.width='80%'}
+knitr::include_graphics("image/TerraSAR-X.jpg")
+```
+<small> Fig.1.TerraSAR-X. Source: [Earth Oline](https://earth.esa.int/eogateway/documents/20142/2205524/TerraSAR-X.jpg)
+</small>
+
+```{r echo=FALSE, out.width='80%'}
+knitr::include_graphics("image/parameters1.jpg")
+```
+<small>Table.1.The Parameters of Sentors. Source: [Earth Oline](https://earth.esa.int/eogateway/missions/terrasar-x-and-tandem-x)
+] 
+</small>
 
 
 ---
-page 13
+page 12
 
 # 2.4 Why the products are useful?
 
@@ -67,21 +94,22 @@ page 13
 - Extensibility of platform functionality.
 
 ---
-page 14
+page 13
 
 # 3.1 Possible risks and strtegies
 
-## Their usefulness
+##The influence of local features such as building density and height on the accuracy of detection and prediction
 
-Helping the government better monitor urban heat island conditions.
+In addition to remote sensing data, real-time temperature detection devices are deployed in urban spaces to improve data accuracy. Expanding the data sources of websites and apps allows the subsequent introduction of other types of data and improves detection accuracy.
 
-## Innovations
+## The accuracy of the warning information to the public and conflicts with the existing government notification system.
 
-Display data and information on urban heat islands through visualisation.
+When communicating thermal risks, it is essential to streamline the language, clarify the distinction between different warning levels, and ensure the accuracy of the information. At the same time, to achieve effective information management, various urban departments must work closely together to avoid confusion of information and strained public outreach.
 
-## Innovations
+## Websites and apps have high operating costs in the later stages and may exceed the budget.
 
-Display data and information on urban heat islands through visualisation.
+Establishing a sound budget and resource management mechanism, including budget planning, resource allocation, cost control and other aspects, is necessary. At the same time, effective monitoring mechanisms must ensure that budgets and resources are used wisely. Try to share the results of the website and APP with other projects to obtain long-term operation funding sources and help.
+
 
 
 
