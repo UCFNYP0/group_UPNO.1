@@ -1,6 +1,6 @@
 ---
 title: "Urban Heated Island System - OneNYC 2050"
-author: "Boxuan Zhao, Zhanyin Hao, Yujin Pan, Zhiwei Huang, Yuqian Zheng"
+author: "Boxuan Zhao, Yinhao Zhan, Yujin Pan, Zhiwei Huang, Yuxi Zheng"
 institute: "UCL,CASA"
 Group Name: "UPNO.1"
 date: "3/22/2023"
@@ -31,5 +31,59 @@ style_mono_light(
 
 ### What is the Synthetic Aperture Radar (SAR)
 
+---
+page 11
+
+# 2.4 Why the products are useful?
+
+## Their usefulness
+
 
 ---
+page 13
+
+# 2.4 Why the products are useful?
+
+## Their usefulness
+
+- Helping the government better monitor urban heat island conditions.
+
+- Provide timely warnings and take countermeasures to reduce the impact of hot weather.
+
+- Reduce casualties and damage caused by hot weather.
+
+- Support urban planning and management by providing information of urban heat islands.
+
+- Help government decision-makers to formulate urban planning and management policies better.
+
+## Innovations
+
+- Display data and information on urban heat islands through visualisation.
+
+- Instant communication.
+
+- Make intelligent predictions and warnings through artificial intelligence technology.
+
+- Extensibility of platform functionality.
+
+---
+page 14
+
+# 3.1 Possible risks and strtegies
+
+## Their usefulness
+
+Helping the government better monitor urban heat island conditions.
+
+## Innovations
+
+Display data and information on urban heat islands through visualisation.
+
+## Innovations
+
+Display data and information on urban heat islands through visualisation.
+
+
+
+
+
