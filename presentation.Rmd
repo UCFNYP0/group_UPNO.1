@@ -25,62 +25,19 @@ style_mono_light(
 ```
 ### 1.1 Learn About Urban Heat Islands
 
-<<<<<<< HEAD
+
+---
+### 1.2 Challenges NYC Face
+
+
+
 ---
 ### 1.2 Challenges NYC Face
 
 
-
 ---
-### 1.2 Challenges NYC Face
-=======
-## first time by zhiwei cc
 
-## second by zhiwei
-
-### What is the Synthetic Aperture Radar (SAR)
-
-
-
-
-
-
-
-
->>>>>>> 57e83da1faa5894c14a65f78a92176f98d5805ee
-
-
-
----
-<<<<<<< HEAD
 ### 1.3 Policy overview
-
-
----
-### 1.4 City examples
-
-
----
-### 2.1 project approach
-
-**Monitoring System**
-```{r echo=FALSE, out.width='100%', fig.align='center', fig.cap= "Monitoring System. Source: [Drawed by Group UPNO.1]"}
-knitr::include_graphics('flow2.png')
-```
----
-### 2.1 project approach
-
-**Predictinging System**
-
-```{r echo=FALSE, out.width='100%', fig.align='center', fig.cap= "Predictinging System. Source: [Drawed by Group UPNO.1]"}
-knitr::include_graphics('flow1.png')
-```
----
-### 2.2 Expected output products
-=======
-
-#1.3 Policy overview
-
 ## International policys
 
 **[United Nations New Urban Agenda (2015)🔗](https://habitat3.org/the-new-urban-agenda/)**
@@ -102,48 +59,9 @@ xaringanExtra::use_tile_view()
 ???
 - In view of the social, economic and environmental damage caused by the urban heat island effect.
 - International policies in recent years have begun to focus on the **reducing the heat island effect and establishing a warning system**.
-
-
-
-
-
-
-
-
-
 ---
-# 1.3 Policy overview
-
-## New York policys
-
-**[OneNYC 2050 Volume 7 (2019)🔗](https://onenyc.cityofnewyork.us/strategies/a-livable-climate/)**
-- Goal: **A LIVABLE CLIMATE.**
-- INITIATIVE 21: New York City is making changes to its physical environment to promote resiliency and mitigate the most dangerous and destructive climate impacts. Such as wetland and forest restoration, to stabilize shorelines, reduce erosion, act as carbon sinks, and **mitigate urban heat island effects**.
-
-**[Securing Our Future: Strategies for New York City in the Fight Against Climate Change (2020)🔗](https://council.nyc.gov/data/securing-our-future/)**
-- Goal: **Achieve cooling equity and reduce heat-related deaths.**
-- Key strategy: **Increase cooling assistance for vulnerable populations**.
-
-**[Cool Neighborhoods NYC (2017)🔗](https://www.preventionweb.net/publication/cool-neighborhoods-nyc-comprehensive-approach-keep-communities-safe-extreme-heat)**
-- Cool Neighborhoods NYC **Monitoring Strategies: Collecting Innovative Data** to Deliver Inclusive and Health-focused Climate Policy.
-
-???
-- In response to these internationalp policies,
-- New York has developed **a number of strategies and tactics** to reduce the heat island effect and Fight Against Climate Change.p- **Like increasing shade, greenery cover. Addressing challenges through data collection and monitoring system.**
-
-
-
-
-
-
-
-
-
-
----
-# 1.4 International City examples
-
-## Warning services: App and Dashboard 
+### 1.4 City examples
+#### Warning services: App and Dashboard 
 
 **[EXTREMA project🔗](https://extrema.space/)** <br/>
 A dynamic platform of solutions that Cities are co-creating. Athens, Paris, Rotterdam, Milan and Lisbon have endorsed EXTREMA services. 
@@ -154,35 +72,21 @@ Source: [EXTREMA | Global🔗](https://extrema-global.com/)
 
 
 ???
-### What is EXTREMA project?
+#### What is EXTREMA project?
 - A dynamic platform of solutions that Cities are co-creating - Free to residents and visitors of participating cities. 
-### What the Mobile app provides the public？
+#### What the Mobile app provides the public？
 - Evaluating the real-time personalised health risk of the user at his/her location.
 - Alerts, recommendations and routing instructions to the nearest cooling centres.
-### What the Dashboard provides the local authorities？
+#### What the Dashboard provides the local authorities？
 - Next day alerts.
 - Current hazard maps.
 - Information management tool for the cooling centres.
-### Which cities have endorsed EXTREMA services
+#### Which cities have endorsed EXTREMA services
 - Athens, Paris, Rotterdam, Milan, Lisbon and the Island of Mallorca.
-
-
-
-
-
-
-
-
-
 ---
+### 1.5 International approach examples
 
-```{r xaringan-panelset, echo=FALSE}
-xaringanExtra::use_panelset()
-```
-
-# 1.5 International approach examples
-
-## Assessment of the UHI effect
+#### Assessment of the UHI effect
 
 The most common assessment of the SUHI uses satellite platforms to measure the **land surface temperature (LST)** (Bechtel et al.,2019).
 
@@ -239,17 +143,26 @@ The most common assessment of the SUHI uses satellite platforms to measure the *
 ???
 - The most common assessment of the SUHI uses satellite platforms to measure the land surface temperature (LST).
 - satellite data like landsat8 provides can be used for **mapping the spatial distribution of urban surface temperatures and identifying urban hotspots.**
+---
+### 2.1 Project approach
 
+**Monitoring System**
+```{r echo=FALSE, out.width='100%', fig.align='center', fig.cap= "Monitoring System. Source: [Drawed by Group UPNO.1]"}
+knitr::include_graphics('flow2.png')
+```
+---
+### 2.1 Project approach
 
+**Predictinging System**
 
-
-
->>>>>>> 57e83da1faa5894c14a65f78a92176f98d5805ee
-
-
+```{r echo=FALSE, out.width='100%', fig.align='center', fig.cap= "Predictinging System. Source: [Drawed by Group UPNO.1]"}
+knitr::include_graphics('flow1.png')
+```
+---
+### 2.2 Expected output products
 
 ---
-<<<<<<< HEAD
+
 ### 2.3 How to use them
 **Government**
 + Help the government to **keep track of the heat island situation**
@@ -264,21 +177,12 @@ The most common assessment of the SUHI uses satellite platforms to measure the *
 ```{r echo=FALSE, out.width='30%', fig.align='right', fig.cap= "Guide to Heatwave"}
 knitr::include_graphics('people.png')
 ```
----
-=======
-page 11
-
-# 2.4 Why the products are useful?
-
-## Their usefulness
-
 
 ---
-page 13
 
-# 2.4 Why the products are useful?
+### 2.4 Why the products are useful
 
-## Their usefulness
+#### Their usefulness
 
 - Helping the government better monitor urban heat island conditions.
 
@@ -290,7 +194,7 @@ page 13
 
 - Help government decision-makers to formulate urban planning and management policies better.
 
-## Innovations
+#### Innovations
 
 - Display data and information on urban heat islands through visualisation.
 
@@ -301,24 +205,21 @@ page 13
 - Extensibility of platform functionality.
 
 ---
-page 14
 
-# 3.1 Possible risks and strtegies
+### 3.1 Possible risks and strtegies
 
-## Their usefulness
+#### Their usefulness
 
 Helping the government better monitor urban heat island conditions.
 
-## Innovations
+#### Innovations
 
 Display data and information on urban heat islands through visualisation.
 
-## Innovations
+#### Innovations
 
 Display data and information on urban heat islands through visualisation.
 
 
 
 
-
->>>>>>> 57e83da1faa5894c14a65f78a92176f98d5805ee
