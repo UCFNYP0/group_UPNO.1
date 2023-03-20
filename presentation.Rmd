@@ -239,20 +239,16 @@ The most common assessment of the SUHI uses satellite platforms to measure the *
 
 **Monitoring System**
 
-   **UHI** = T0(Temperature in the city) - T1 (Temperature in the rural)
-**SUHI** = LST in the build-up area - LST in the non build-up area
-```{r echo=FALSE, out.width='100%', fig.align='center', fig.cap= "Monitoring System. Source: [Drawed by Group UPNO.1]"}
-knitr::include_graphics('flow1.png')
+```{r echo=FALSE, out.width='90%', fig.align='center'}
+knitr::include_graphics('flow2.png')
 ```
-**SUHI**: Surface Urban Heated Island
-**UHI**：Urban Heated Island
+
 ---
 ### 2.1 Project approach
 
 **Predictinging System**
-
-```{r echo=FALSE, out.width='100%',fig.align='center', fig.cap= "Predictinging System. Source: [Drawed by Group UPNO.1]"}
-knitr::include_graphics('flow2.png')
+```{r echo=FALSE, out.width='100%',fig.align='center'}
+knitr::include_graphics('flow1.png')
 ```
 ---
 ### 2.2 Expected output products
