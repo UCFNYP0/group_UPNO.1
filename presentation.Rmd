@@ -101,13 +101,7 @@ Heat is the NO.1 weather-related killer in the US (NOAA, 2016). Every year, NYC 
 
  
 
----
-### 1.2 Challenges NYC Face
 
-<center>
-<p><img src="https://i.postimg.cc/43sNtP8Q/p5.png" width=500,height=250><br>
-        
-<center><h6><b>Source: NOAA National Weather Service, 2016.<b/></h6>
 ---
 
 ### 1.3 Policy overview
