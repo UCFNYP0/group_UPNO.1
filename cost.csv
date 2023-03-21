@@ -1,4 +1,4 @@
-﻿,Description,Total Cost GBP
+﻿Name,Description,Cost
 Direct Costs,,
 Project Manager,"Overall planning, organisation and implementation of the project","25,000"
 Remote sensing data analyst,"Collection, processing and analysis of remote sensing data on urban heat island effect","20,000"
@@ -9,4 +9,4 @@ Rent and Property,Office space rent and related facilities and equipment expense
 Operation and Management,"Expenses for marketing and branding, web and app maintenance and updates ","30,000"
 Human Resources Management,"Expenses on hiring off-site experts, welfare and insurance","8,000"
 Contingency Unforeseen expenses and emergencies,,"20,000"
-Total ,The sum of direct and indirect costs,"168,000"
+Total , Sum of the direct and indirect cost,"168,000"
